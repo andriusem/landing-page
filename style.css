@@ -1,0 +1,37 @@
+body {
+    font-family: roboto; 
+}
+
+.container {
+  display: flex;  
+  background-color: aqua;
+  justify-content: space-between; 
+  align-items: center;
+  background-color:#1f2937;
+
+}
+
+.header {
+    margin-left: 200px;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    display:flex; 
+    list-style-type: none;
+    margin-right: 200px;
+    font-size: 18px;
+    
+}
+
+li {
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+a {
+    text-decoration: none;
+    color:#e5e7eb;
+}
