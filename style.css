@@ -9,7 +9,6 @@ body {
   background-color:hsl(215, 28%, 17%);
   margin: -10px;
   padding: 10px;
-
 }
 
 .header {
@@ -22,14 +21,12 @@ ul {
     display:flex; 
     list-style-type: none;
     margin-right: 200px;
-    font-size: 18px;
-    
+    font-size: 18px;    
 }
 
 li {
     padding-left: 25px;
-    padding-right: 25px;
-    
+    padding-right: 25px;   
 }
 
 a {
@@ -53,15 +50,13 @@ a {
     height: 300px;
     margin-top: 10px;
     margin-right: 350px;
-
 }
 
 .hero-left-side {
     display: flex;
     margin-left: 350px;
     flex-direction: column;
-    max-width: 375px;
-    
+    max-width: 375px;    
 }
 
 button {
@@ -71,8 +66,7 @@ button {
     border: #1f2937;
     background-color: #1f2937;
     color:#f9faf8; 
-    font-weight: bolder;
-    
+    font-weight: bolder;   
 }
 
 h1 {
@@ -80,6 +74,14 @@ h1 {
     font-weight: bolder;
     color: #f9faf8;
     margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    flex-direction: row;
+    justify-content: end;
+    display: flex;
 }
 
 h3 {
@@ -94,22 +96,20 @@ h3 {
     display: flex;
     justify-content: center;
     padding-top: 50px;
-    padding-bottom: 25;
+    margin-bottom: -80px;
 }
 
 .container2 {
-    height: 375px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items:center; 
-
 }
 
 
 p {
   width: 150px; 
-  text-align: center;
-  
+  text-align: center; 
 }
 
 .orca {
@@ -122,3 +122,53 @@ p {
     padding: 50px; 
     
 }
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    background-color: #e5e7eb;
+    margin-left: -15px;
+    margin-right: -10px; 
+}
+
+.container3 {
+    width: 700px;
+}
+
+.call-to-action {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container4 {
+    display: flex; 
+    flex-direction: row;
+    align-items: center; 
+    background-color: #219ebc;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+.sign-up {
+    background-color:#1f2937; 
+   
+
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 150px;
+}
+
