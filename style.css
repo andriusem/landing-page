@@ -172,3 +172,16 @@ p {
     padding-right: 150px;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    margin-left: -10px; 
+    margin-right: -10px;
+    margin-bottom: -15px;
+    padding: 30px;
+}
+
+.footer {
+    color:#e5e7eb
+}
